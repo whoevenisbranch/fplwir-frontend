@@ -21,8 +21,8 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        <p>
-          This is the front-end for FPL Week In Review
+        <p className="font-bold text-red-500">
+          Hello world!
         </p>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
