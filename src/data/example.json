@@ -1,1308 +1,1308 @@
 {
-    "data": {
-        "leagueId": 526406,
-        "gw": 26,
-        "details": [
-            {
-                "managerId": 515399,
-                "teamName": "Le Saux Solid Crew",
-                "snapshotRank": 1,
-                "lastRank": 2,
-                "eventPoints": 56,
-                "benchedPoints": 20,
-                "picks": [
-                    {
-                        "playerId": 253,
-                        "name": "Henderson",
-                        "stats": {
-                            "minutesPlayed": 90,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 3,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 0,
-                            "starts": 1,
-                            "weeklyPoints": 1,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 5,
-                        "name": "Gabriel",
-                        "stats": {
-                            "minutesPlayed": 180,
-                            "goalsScored": 0,
-                            "assists": 1,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 3,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 1,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 24,
-                            "starts": 2,
-                            "weeklyPoints": 7,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 226,
-                        "name": "Chalobah",
-                        "stats": {
-                            "minutesPlayed": 90,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 2,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 11,
-                            "starts": 1,
-                            "weeklyPoints": 3,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 8,
-                        "name": "J.Timber",
-                        "stats": {
-                            "minutesPlayed": 180,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 3,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 7,
-                            "starts": 2,
-                            "weeklyPoints": 3,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 21,
-                        "name": "Rice",
-                        "stats": {
-                            "minutesPlayed": 180,
-                            "goalsScored": 0,
-                            "assists": 1,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 3,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 3,
-                            "defcon": 28,
-                            "starts": 2,
-                            "weeklyPoints": 14,
-                            "inDreamTeam": true
-                        }
-                    },
-                    {
-                        "playerId": 449,
-                        "name": "B.Fernandes",
-                        "stats": {
-                            "minutesPlayed": 90,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 1,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 3,
-                            "starts": 1,
-                            "weeklyPoints": 2,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 237,
-                        "name": "Enzo",
-                        "stats": {
-                            "minutesPlayed": 90,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 2,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 6,
-                            "starts": 1,
-                            "weeklyPoints": 2,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 488,
-                        "name": "Bruno G.",
-                        "stats": {
-                            "minutesPlayed": 90,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 1,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 1,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 12,
-                            "starts": 1,
-                            "weeklyPoints": 3,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 430,
-                        "name": "Haaland",
-                        "stats": {
-                            "minutesPlayed": 45,
-                            "goalsScored": 1,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 0,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 1,
-                            "starts": 1,
-                            "weeklyPoints": 5,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 661,
-                        "name": "Ekitiké",
-                        "stats": {
-                            "minutesPlayed": 87,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 1,
-                            "goalsConceeded": 0,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 4,
-                            "starts": 1,
-                            "weeklyPoints": 2,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 654,
-                        "name": "Strand Larsen",
-                        "stats": {
-                            "minutesPlayed": 90,
-                            "goalsScored": 2,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 3,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 3,
-                            "defcon": 2,
-                            "starts": 1,
-                            "weeklyPoints": 13,
-                            "inDreamTeam": true
-                        }
-                    },
-                    {
-                        "playerId": 470,
-                        "name": "Dúbravka",
-                        "stats": {
-                            "minutesPlayed": 90,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 2,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 0,
-                            "starts": 1,
-                            "weeklyPoints": 1,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 329,
-                        "name": "Wilson",
-                        "stats": {
-                            "minutesPlayed": 71,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 3,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 1,
-                            "starts": 1,
-                            "weeklyPoints": 2,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 683,
-                        "name": "Alderete",
-                        "stats": {
-                            "minutesPlayed": 79,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 1,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 9,
-                            "starts": 1,
-                            "weeklyPoints": 2,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 317,
-                        "name": "Andersen",
-                        "stats": {
-                            "minutesPlayed": 90,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 3,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 1,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 10,
-                            "starts": 1,
-                            "weeklyPoints": 2,
-                            "inDreamTeam": false
-                        }
-                    }
-                ]
-            },
-            {
-                "managerId": 3655280,
-                "teamName": "jbl",
-                "snapshotRank": 2,
-                "lastRank": 1,
-                "eventPoints": 46,
-                "benchedPoints": 8,
-                "picks": [
-                    {
-                        "playerId": 1,
-                        "name": "Raya",
-                        "stats": {
-                            "minutesPlayed": 180,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 3,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 0,
-                            "starts": 2,
-                            "weeklyPoints": 3,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 226,
-                        "name": "Chalobah",
-                        "stats": {
-                            "minutesPlayed": 90,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 2,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 11,
-                            "starts": 1,
-                            "weeklyPoints": 3,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 8,
-                        "name": "J.Timber",
-                        "stats": {
-                            "minutesPlayed": 180,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 3,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 7,
-                            "starts": 2,
-                            "weeklyPoints": 3,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 5,
-                        "name": "Gabriel",
-                        "stats": {
-                            "minutesPlayed": 180,
-                            "goalsScored": 0,
-                            "assists": 1,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 3,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 1,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 24,
-                            "starts": 2,
-                            "weeklyPoints": 7,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 237,
-                        "name": "Enzo",
-                        "stats": {
-                            "minutesPlayed": 90,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 2,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 6,
-                            "starts": 1,
-                            "weeklyPoints": 2,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 267,
-                        "name": "Sarr",
-                        "stats": {
-                            "minutesPlayed": 90,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 3,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 4,
-                            "starts": 1,
-                            "weeklyPoints": 2,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 382,
-                        "name": "Wirtz",
-                        "stats": {
-                            "minutesPlayed": 90,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 1,
-                            "goalsConceeded": 0,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 7,
-                            "starts": 1,
-                            "weeklyPoints": 3,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 47,
-                        "name": "Rogers",
-                        "stats": {
-                            "minutesPlayed": 90,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 1,
-                            "goalsConceeded": 0,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 1,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 3,
-                            "starts": 1,
-                            "weeklyPoints": 2,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 661,
-                        "name": "Ekitiké",
-                        "stats": {
-                            "minutesPlayed": 87,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 1,
-                            "goalsConceeded": 0,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 4,
-                            "starts": 1,
-                            "weeklyPoints": 2,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 430,
-                        "name": "Haaland",
-                        "stats": {
-                            "minutesPlayed": 45,
-                            "goalsScored": 1,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 0,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 1,
-                            "starts": 1,
-                            "weeklyPoints": 5,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 337,
-                        "name": "Raúl",
-                        "stats": {
-                            "minutesPlayed": 59,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 3,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 3,
-                            "starts": 1,
-                            "weeklyPoints": 1,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 470,
-                        "name": "Dúbravka",
-                        "stats": {
-                            "minutesPlayed": 90,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 2,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 0,
-                            "starts": 1,
-                            "weeklyPoints": 1,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 329,
-                        "name": "Wilson",
-                        "stats": {
-                            "minutesPlayed": 71,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 3,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 1,
-                            "starts": 1,
-                            "weeklyPoints": 2,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 72,
-                        "name": "Senesi",
-                        "stats": {
-                            "minutesPlayed": 90,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 1,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 7,
-                            "starts": 1,
-                            "weeklyPoints": 2,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 694,
-                        "name": "Mukiele",
-                        "stats": {
-                            "minutesPlayed": 90,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 1,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 8,
-                            "starts": 1,
-                            "weeklyPoints": 2,
-                            "inDreamTeam": false
-                        }
-                    }
-                ]
-            },
-            {
-                "managerId": 864745,
-                "teamName": "Mbuemo No.5",
-                "snapshotRank": 3,
-                "lastRank": 3,
-                "eventPoints": 48,
-                "benchedPoints": 22,
-                "picks": [
-                    {
-                        "playerId": 470,
-                        "name": "Dúbravka",
-                        "stats": {
-                            "minutesPlayed": 90,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 2,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 0,
-                            "starts": 1,
-                            "weeklyPoints": 1,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 6,
-                        "name": "Saliba",
-                        "stats": {
-                            "minutesPlayed": 90,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 2,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 8,
-                            "starts": 1,
-                            "weeklyPoints": 1,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 5,
-                        "name": "Gabriel",
-                        "stats": {
-                            "minutesPlayed": 180,
-                            "goalsScored": 0,
-                            "assists": 1,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 3,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 1,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 24,
-                            "starts": 2,
-                            "weeklyPoints": 7,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 226,
-                        "name": "Chalobah",
-                        "stats": {
-                            "minutesPlayed": 90,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 2,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 11,
-                            "starts": 1,
-                            "weeklyPoints": 3,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 21,
-                        "name": "Rice",
-                        "stats": {
-                            "minutesPlayed": 180,
-                            "goalsScored": 0,
-                            "assists": 1,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 3,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 3,
-                            "defcon": 28,
-                            "starts": 2,
-                            "weeklyPoints": 14,
-                            "inDreamTeam": true
-                        }
-                    },
-                    {
-                        "playerId": 237,
-                        "name": "Enzo",
-                        "stats": {
-                            "minutesPlayed": 90,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 2,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 6,
-                            "starts": 1,
-                            "weeklyPoints": 2,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 488,
-                        "name": "Bruno G.",
-                        "stats": {
-                            "minutesPlayed": 90,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 1,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 1,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 12,
-                            "starts": 1,
-                            "weeklyPoints": 3,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 47,
-                        "name": "Rogers",
-                        "stats": {
-                            "minutesPlayed": 90,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 1,
-                            "goalsConceeded": 0,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 1,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 3,
-                            "starts": 1,
-                            "weeklyPoints": 2,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 382,
-                        "name": "Wirtz",
-                        "stats": {
-                            "minutesPlayed": 90,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 1,
-                            "goalsConceeded": 0,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 7,
-                            "starts": 1,
-                            "weeklyPoints": 3,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 430,
-                        "name": "Haaland",
-                        "stats": {
-                            "minutesPlayed": 45,
-                            "goalsScored": 1,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 0,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 1,
-                            "starts": 1,
-                            "weeklyPoints": 5,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 624,
-                        "name": "Bowen",
-                        "stats": {
-                            "minutesPlayed": 89,
-                            "goalsScored": 0,
-                            "assists": 1,
-                            "cleanSheets": 1,
-                            "goalsConceeded": 0,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 9,
-                            "starts": 1,
-                            "weeklyPoints": 5,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 670,
-                        "name": "Roefs",
-                        "stats": {
-                            "minutesPlayed": 90,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 1,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 0,
-                            "starts": 1,
-                            "weeklyPoints": 2,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 684,
-                        "name": "Thiaw",
-                        "stats": {
-                            "minutesPlayed": 90,
-                            "goalsScored": 1,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 1,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 1,
-                            "defcon": 10,
-                            "starts": 1,
-                            "weeklyPoints": 11,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 100,
-                        "name": "Kroupi.Jr",
-                        "stats": {
-                            "minutesPlayed": 32,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 0,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 3,
-                            "starts": 0,
-                            "weeklyPoints": 1,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 191,
-                        "name": "Estève",
-                        "stats": {
-                            "minutesPlayed": 90,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 2,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 10,
-                            "starts": 1,
-                            "weeklyPoints": 3,
-                            "inDreamTeam": false
-                        }
-                    }
-                ]
-            },
-            {
-                "managerId": 4168631,
-                "teamName": "JB",
-                "snapshotRank": 4,
-                "lastRank": 4,
-                "eventPoints": 44,
-                "benchedPoints": 3,
-                "picks": [
-                    {
-                        "playerId": 314,
-                        "name": "Leno",
-                        "stats": {
-                            "minutesPlayed": 90,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 3,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 0,
-                            "starts": 1,
-                            "weeklyPoints": 1,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 234,
-                        "name": "Anselmino",
-                        "stats": {
-                            "minutesPlayed": 0,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 0,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 0,
-                            "starts": 0,
-                            "weeklyPoints": 0,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 194,
-                        "name": "Jordan",
-                        "stats": {
-                            "minutesPlayed": 0,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 0,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 0,
-                            "starts": 0,
-                            "weeklyPoints": 0,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 40,
-                        "name": "Mings",
-                        "stats": {
-                            "minutesPlayed": 90,
-                            "goalsScored": 0,
-                            "assists": 1,
-                            "cleanSheets": 1,
-                            "goalsConceeded": 0,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 3,
-                            "defcon": 5,
-                            "starts": 1,
-                            "weeklyPoints": 12,
-                            "inDreamTeam": true
-                        }
-                    },
-                    {
-                        "playerId": 376,
-                        "name": "Gomez",
-                        "stats": {
-                            "minutesPlayed": 21,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 0,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 2,
-                            "starts": 0,
-                            "weeklyPoints": 1,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 235,
-                        "name": "Palmer",
-                        "stats": {
-                            "minutesPlayed": 90,
-                            "goalsScored": 1,
-                            "assists": 1,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 2,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 1,
-                            "redCards": 0,
-                            "bonusPoints": 3,
-                            "defcon": 3,
-                            "starts": 1,
-                            "weeklyPoints": 12,
-                            "inDreamTeam": true
-                        }
-                    },
-                    {
-                        "playerId": 552,
-                        "name": "Sadiki",
-                        "stats": {
-                            "minutesPlayed": 90,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 1,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 8,
-                            "starts": 1,
-                            "weeklyPoints": 2,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 384,
-                        "name": "Gakpo",
-                        "stats": {
-                            "minutesPlayed": 74,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 1,
-                            "goalsConceeded": 0,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 4,
-                            "starts": 1,
-                            "weeklyPoints": 3,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 17,
-                        "name": "Ødegaard",
-                        "stats": {
-                            "minutesPlayed": 45,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 1,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 4,
-                            "starts": 0,
-                            "weeklyPoints": 1,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 218,
-                        "name": "Barnes",
-                        "stats": {
-                            "minutesPlayed": 0,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 0,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 0,
-                            "starts": 0,
-                            "weeklyPoints": 0,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 666,
-                        "name": "Gyökeres",
-                        "stats": {
-                            "minutesPlayed": 154,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 2,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 1,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 3,
-                            "starts": 2,
-                            "weeklyPoints": 3,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 600,
-                        "name": "Areola",
-                        "stats": {
-                            "minutesPlayed": 0,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 0,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 0,
-                            "starts": 0,
-                            "weeklyPoints": 0,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 403,
-                        "name": "Gvardiol",
-                        "stats": {
-                            "minutesPlayed": 0,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 0,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 0,
-                            "starts": 0,
-                            "weeklyPoints": 0,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 499,
-                        "name": "Isak",
-                        "stats": {
-                            "minutesPlayed": 0,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 0,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 0,
-                            "starts": 0,
-                            "weeklyPoints": 0,
-                            "inDreamTeam": false
-                        }
-                    },
-                    {
-                        "playerId": 331,
-                        "name": "Cairney",
-                        "stats": {
-                            "minutesPlayed": 0,
-                            "goalsScored": 0,
-                            "assists": 0,
-                            "cleanSheets": 0,
-                            "goalsConceeded": 0,
-                            "ownGoals": 0,
-                            "penaltiesSaved": 0,
-                            "penaltiesMissed": 0,
-                            "yellowCards": 0,
-                            "redCards": 0,
-                            "bonusPoints": 0,
-                            "defcon": 0,
-                            "starts": 0,
-                            "weeklyPoints": 0,
-                            "inDreamTeam": false
-                        }
-                    }
-                ]
+  "data": {
+    "leagueId": 526406,
+    "gw": 27,
+    "details": [
+      {
+        "managerId": 864745,
+        "teamName": "Mbuemo No.5",
+        "snapshotRank": 3,
+        "lastRank": 3,
+        "eventPoints": 38,
+        "benchedPoints": 12,
+        "picks": [
+          {
+            "playerId": 670,
+            "name": "Roefs",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 0,
+              "goalsConceeded": 3,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 0,
+              "starts": 1,
+              "weeklyPoints": 1,
+              "inDreamTeam": false
             }
+          },
+          {
+            "playerId": 6,
+            "name": "Saliba",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 0,
+              "goalsConceeded": 1,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 8,
+              "starts": 1,
+              "weeklyPoints": 2,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 373,
+            "name": "Virgil",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 0,
+              "assists": 1,
+              "cleanSheets": 1,
+              "goalsConceeded": 0,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 2,
+              "defcon": 7,
+              "starts": 1,
+              "weeklyPoints": 11,
+              "inDreamTeam": true
+            }
+          },
+          {
+            "playerId": 226,
+            "name": "Chalobah",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 0,
+              "goalsConceeded": 1,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 9,
+              "starts": 1,
+              "weeklyPoints": 2,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 260,
+            "name": "Guéhi",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 0,
+              "goalsConceeded": 1,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 7,
+              "starts": 1,
+              "weeklyPoints": 2,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 47,
+            "name": "Rogers",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 0,
+              "goalsConceeded": 1,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 7,
+              "starts": 1,
+              "weeklyPoints": 2,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 237,
+            "name": "Enzo",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 0,
+              "goalsConceeded": 1,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 4,
+              "starts": 1,
+              "weeklyPoints": 2,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 82,
+            "name": "Semenyo",
+            "stats": {
+              "minutesPlayed": 86,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 0,
+              "goalsConceeded": 1,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 13,
+              "starts": 1,
+              "weeklyPoints": 4,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 21,
+            "name": "Rice",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 0,
+              "goalsConceeded": 1,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 15,
+              "starts": 1,
+              "weeklyPoints": 4,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 624,
+            "name": "Bowen",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 1,
+              "goalsConceeded": 0,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 14,
+              "starts": 1,
+              "weeklyPoints": 4,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 430,
+            "name": "Haaland",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 0,
+              "assists": 1,
+              "cleanSheets": 0,
+              "goalsConceeded": 1,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 1,
+              "defcon": 4,
+              "starts": 1,
+              "weeklyPoints": 6,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 470,
+            "name": "Dúbravka",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 0,
+              "goalsConceeded": 1,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 0,
+              "starts": 1,
+              "weeklyPoints": 2,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 382,
+            "name": "Wirtz",
+            "stats": {
+              "minutesPlayed": 0,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 0,
+              "goalsConceeded": 0,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 0,
+              "starts": 0,
+              "weeklyPoints": 0,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 100,
+            "name": "Kroupi.Jr",
+            "stats": {
+              "minutesPlayed": 88,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 1,
+              "goalsConceeded": 0,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 4,
+              "starts": 1,
+              "weeklyPoints": 2,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 191,
+            "name": "Estève",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 0,
+              "goalsConceeded": 1,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 9,
+              "starts": 1,
+              "weeklyPoints": 2,
+              "inDreamTeam": false
+            }
+          }
         ]
-    }
+      },
+      {
+        "managerId": 4168631,
+        "teamName": "JB",
+        "snapshotRank": 4,
+        "lastRank": 4,
+        "eventPoints": 22,
+        "benchedPoints": 13,
+        "picks": [
+          {
+            "playerId": 314,
+            "name": "Leno",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 0,
+              "goalsConceeded": 1,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 0,
+              "starts": 1,
+              "weeklyPoints": 2,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 194,
+            "name": "Jordan",
+            "stats": {
+              "minutesPlayed": 0,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 0,
+              "goalsConceeded": 0,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 0,
+              "starts": 0,
+              "weeklyPoints": 0,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 40,
+            "name": "Mings",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 0,
+              "goalsConceeded": 1,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 8,
+              "starts": 1,
+              "weeklyPoints": 2,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 376,
+            "name": "Gomez",
+            "stats": {
+              "minutesPlayed": 7,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 0,
+              "goalsConceeded": 0,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 3,
+              "starts": 0,
+              "weeklyPoints": 1,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 331,
+            "name": "Cairney",
+            "stats": {
+              "minutesPlayed": 2,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 0,
+              "goalsConceeded": 0,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 1,
+              "starts": 0,
+              "weeklyPoints": 1,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 235,
+            "name": "Palmer",
+            "stats": {
+              "minutesPlayed": 74,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 1,
+              "goalsConceeded": 0,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 9,
+              "starts": 1,
+              "weeklyPoints": 3,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 552,
+            "name": "Sadiki",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 0,
+              "goalsConceeded": 3,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 10,
+              "starts": 1,
+              "weeklyPoints": 2,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 384,
+            "name": "Gakpo",
+            "stats": {
+              "minutesPlayed": 76,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 1,
+              "goalsConceeded": 0,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 9,
+              "starts": 1,
+              "weeklyPoints": 3,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 17,
+            "name": "Ødegaard",
+            "stats": {
+              "minutesPlayed": 13,
+              "goalsScored": 0,
+              "assists": 1,
+              "cleanSheets": 0,
+              "goalsConceeded": 0,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 1,
+              "starts": 0,
+              "weeklyPoints": 4,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 218,
+            "name": "Barnes",
+            "stats": {
+              "minutesPlayed": 6,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 0,
+              "goalsConceeded": 0,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 1,
+              "starts": 0,
+              "weeklyPoints": 1,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 666,
+            "name": "Gyökeres",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 2,
+              "assists": 0,
+              "cleanSheets": 0,
+              "goalsConceeded": 1,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 3,
+              "defcon": 5,
+              "starts": 1,
+              "weeklyPoints": 13,
+              "inDreamTeam": true
+            }
+          },
+          {
+            "playerId": 600,
+            "name": "Areola",
+            "stats": {
+              "minutesPlayed": 0,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 0,
+              "goalsConceeded": 0,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 0,
+              "starts": 0,
+              "weeklyPoints": 0,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 403,
+            "name": "Gvardiol",
+            "stats": {
+              "minutesPlayed": 0,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 0,
+              "goalsConceeded": 0,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 0,
+              "starts": 0,
+              "weeklyPoints": 0,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 499,
+            "name": "Isak",
+            "stats": {
+              "minutesPlayed": 0,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 0,
+              "goalsConceeded": 0,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 0,
+              "starts": 0,
+              "weeklyPoints": 0,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 234,
+            "name": "Anselmino",
+            "stats": {
+              "minutesPlayed": 0,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 0,
+              "goalsConceeded": 0,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 0,
+              "starts": 0,
+              "weeklyPoints": 0,
+              "inDreamTeam": false
+            }
+          }
+        ]
+      },
+      {
+        "managerId": 515399,
+        "teamName": "Le Saux Solid Crew",
+        "snapshotRank": 1,
+        "lastRank": 1,
+        "eventPoints": 50,
+        "benchedPoints": 17,
+        "picks": [
+          {
+            "playerId": 253,
+            "name": "Henderson",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 1,
+              "goalsConceeded": 0,
+              "ownGoals": 0,
+              "penaltiesSaved": 1,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 3,
+              "defcon": 0,
+              "starts": 1,
+              "weeklyPoints": 16,
+              "inDreamTeam": true
+            }
+          },
+          {
+            "playerId": 5,
+            "name": "Gabriel",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 0,
+              "goalsConceeded": 1,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 6,
+              "starts": 1,
+              "weeklyPoints": 2,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 226,
+            "name": "Chalobah",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 0,
+              "goalsConceeded": 1,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 9,
+              "starts": 1,
+              "weeklyPoints": 2,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 38,
+            "name": "Konsa",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 0,
+              "assists": 1,
+              "cleanSheets": 0,
+              "goalsConceeded": 1,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 10,
+              "starts": 1,
+              "weeklyPoints": 7,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 21,
+            "name": "Rice",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 0,
+              "goalsConceeded": 1,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 15,
+              "starts": 1,
+              "weeklyPoints": 4,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 449,
+            "name": "B.Fernandes",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 1,
+              "goalsConceeded": 0,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 1,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 2,
+              "starts": 1,
+              "weeklyPoints": 2,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 237,
+            "name": "Enzo",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 0,
+              "goalsConceeded": 1,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 4,
+              "starts": 1,
+              "weeklyPoints": 2,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 120,
+            "name": "Schade",
+            "stats": {
+              "minutesPlayed": 45,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 0,
+              "goalsConceeded": 0,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 4,
+              "starts": 0,
+              "weeklyPoints": 1,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 430,
+            "name": "Haaland",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 0,
+              "assists": 1,
+              "cleanSheets": 0,
+              "goalsConceeded": 1,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 1,
+              "defcon": 4,
+              "starts": 1,
+              "weeklyPoints": 6,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 661,
+            "name": "Ekitiké",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 1,
+              "goalsConceeded": 0,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 6,
+              "starts": 1,
+              "weeklyPoints": 2,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 654,
+            "name": "Strand Larsen",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 1,
+              "goalsConceeded": 0,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 7,
+              "starts": 1,
+              "weeklyPoints": 2,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 470,
+            "name": "Dúbravka",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 0,
+              "goalsConceeded": 1,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 0,
+              "starts": 1,
+              "weeklyPoints": 2,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 329,
+            "name": "Wilson",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 0,
+              "assists": 1,
+              "cleanSheets": 0,
+              "goalsConceeded": 1,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 1,
+              "defcon": 16,
+              "starts": 1,
+              "weeklyPoints": 8,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 317,
+            "name": "Andersen",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 0,
+              "goalsConceeded": 1,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 11,
+              "starts": 1,
+              "weeklyPoints": 4,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 683,
+            "name": "Alderete",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 0,
+              "goalsConceeded": 3,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 7,
+              "starts": 1,
+              "weeklyPoints": 1,
+              "inDreamTeam": false
+            }
+          }
+        ]
+      },
+      {
+        "managerId": 3655280,
+        "teamName": "jbl",
+        "snapshotRank": 2,
+        "lastRank": 2,
+        "eventPoints": 35,
+        "benchedPoints": 17,
+        "picks": [
+          {
+            "playerId": 101,
+            "name": "Kelleher",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 0,
+              "goalsConceeded": 2,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 0,
+              "starts": 1,
+              "weeklyPoints": 2,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 226,
+            "name": "Chalobah",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 0,
+              "goalsConceeded": 1,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 9,
+              "starts": 1,
+              "weeklyPoints": 2,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 694,
+            "name": "Mukiele",
+            "stats": {
+              "minutesPlayed": 11,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 0,
+              "goalsConceeded": 0,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 0,
+              "starts": 1,
+              "weeklyPoints": 1,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 8,
+            "name": "J.Timber",
+            "stats": {
+              "minutesPlayed": 56,
+              "goalsScored": 0,
+              "assists": 1,
+              "cleanSheets": 0,
+              "goalsConceeded": 1,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 1,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 1,
+              "starts": 1,
+              "weeklyPoints": 3,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 5,
+            "name": "Gabriel",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 0,
+              "goalsConceeded": 1,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 6,
+              "starts": 1,
+              "weeklyPoints": 2,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 237,
+            "name": "Enzo",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 0,
+              "goalsConceeded": 1,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 4,
+              "starts": 1,
+              "weeklyPoints": 2,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 267,
+            "name": "Sarr",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 1,
+              "goalsConceeded": 0,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 1,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 11,
+              "starts": 1,
+              "weeklyPoints": 2,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 47,
+            "name": "Rogers",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 0,
+              "goalsConceeded": 1,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 7,
+              "starts": 1,
+              "weeklyPoints": 2,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 337,
+            "name": "Raúl",
+            "stats": {
+              "minutesPlayed": 64,
+              "goalsScored": 2,
+              "assists": 0,
+              "cleanSheets": 1,
+              "goalsConceeded": 0,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 1,
+              "redCards": 0,
+              "bonusPoints": 2,
+              "defcon": 4,
+              "starts": 1,
+              "weeklyPoints": 11,
+              "inDreamTeam": true
+            }
+          },
+          {
+            "playerId": 430,
+            "name": "Haaland",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 0,
+              "assists": 1,
+              "cleanSheets": 0,
+              "goalsConceeded": 1,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 1,
+              "defcon": 4,
+              "starts": 1,
+              "weeklyPoints": 6,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 661,
+            "name": "Ekitiké",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 1,
+              "goalsConceeded": 0,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 6,
+              "starts": 1,
+              "weeklyPoints": 2,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 470,
+            "name": "Dúbravka",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 0,
+              "goalsConceeded": 1,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 0,
+              "starts": 1,
+              "weeklyPoints": 2,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 382,
+            "name": "Wirtz",
+            "stats": {
+              "minutesPlayed": 0,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 0,
+              "goalsConceeded": 0,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 0,
+              "starts": 0,
+              "weeklyPoints": 0,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 329,
+            "name": "Wilson",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 0,
+              "assists": 1,
+              "cleanSheets": 0,
+              "goalsConceeded": 1,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 0,
+              "redCards": 0,
+              "bonusPoints": 1,
+              "defcon": 16,
+              "starts": 1,
+              "weeklyPoints": 8,
+              "inDreamTeam": false
+            }
+          },
+          {
+            "playerId": 72,
+            "name": "Senesi",
+            "stats": {
+              "minutesPlayed": 90,
+              "goalsScored": 0,
+              "assists": 0,
+              "cleanSheets": 1,
+              "goalsConceeded": 0,
+              "ownGoals": 0,
+              "penaltiesSaved": 0,
+              "penaltiesMissed": 0,
+              "yellowCards": 1,
+              "redCards": 0,
+              "bonusPoints": 0,
+              "defcon": 8,
+              "starts": 1,
+              "weeklyPoints": 5,
+              "inDreamTeam": false
+            }
+          }
+        ]
+      }
+    ]
+  }
 }
