@@ -1,0 +1,379 @@
+/* GLOBAL */
+body {
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	height: 100dvh;
+	font-family: monospace;
+	background: rgb(231,254,255);
+}
+
+header,
+footer {
+	background: #000;
+	min-height: 50px;
+}
+
+.header {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+}
+
+@media (width > 1024px) {
+	.main {
+		align-items: center;
+	}
+}
+
+@media (width > 1440px) {
+	.main__container {
+		display: grid;
+	}
+	
+	
+	
+	.league-name__container {
+		grid-area: title;
+	}
+	
+	.overview__section {
+		grid-area: over;
+	}
+	
+	.league-table__section {
+		grid-area: league;
+	}
+	
+}
+
+
+
+
+.league-name__container {
+	display: flex;
+	flex-direction: column;
+	grid-column: span 2;
+	align-items: center;
+	padding: 5px;
+	margin: 20px 0px;
+}
+
+.league-name__container > h2 {
+	font-size: 40px;
+	text-align: center;
+}
+
+.overview__section {
+	padding: 20px 20px;
+	margin: 0 auto;
+	
+	
+}
+
+.overview__container {
+	display: flex;
+	flex-direction: row;
+	gap: 0.5em;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 100%;
+}
+
+
+.podium {
+	display: flex;
+	flex-direction: column;
+	
+	justify-content: space-around;
+	align-items: center;
+}
+
+.overview__item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	justify-content: space-around;
+	
+	background: rgb(248,248,255);
+	height: 250px;
+	width: 275px;
+	
+	border-radius: 35px;
+	box-shadow: 0px 5px 10px rgb(128,128,128);
+}
+
+.overview__podium__container {
+	display: flex;
+	align-items: flex-end;
+}
+
+.overview__item__heading {
+	font-size: 20px;
+}
+
+.overview__podium__item {
+	width: 75px;
+}
+
+.first {
+	min-height: 150px;
+	background: rgb(255,215,0);
+}
+
+.second {
+	min-height: 100px;
+	background: rgb(192,192,192);
+}
+
+.third {
+	min-height: 75px;
+	background: rgb(160,82,45);
+}
+
+.overview__podium__name {
+	font-size: 15px;
+	text-align: center;
+	padding: 0.5rem;
+}
+
+.overview__podium__rank {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+.overview__podium__rank-pos {
+	font-weight: semibold;
+	font-size: 35px;
+}
+
+.overview__podium__rank-pts {
+	font-size: 15px;
+}
+
+
+.overview__winner__container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 10px;
+}
+
+.overview__winner__points,
+.overview__avgscore__points {
+	font-size: 75px;
+}
+.overview__winner__headline {
+	flex: flex-end;
+	text-align: center;
+}
+
+.league-table__section {
+	grid-column: span 2;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	text-align: center;
+	padding: 1em;
+	justify-content: space-evenly;
+	
+	margin: 0 auto;
+	
+	gap: 2em;
+}
+
+.table__container {
+	overflow-x: auto;
+	background: rgb(231,254,255);
+}
+
+.table__container__table__heading,
+.table__container__table__data {
+	text-align: center;
+	padding: 8px 0px;
+	min-width: 100px;
+	
+}
+
+.table__container__table__heading:first-child,
+.table__container__table__data:first-child {
+	font-weight: bold;
+	text-align: left;
+	padding: 0px 5px;
+	position: sticky;
+	left: 0; /* Ensures the column stays on the left */
+	z-index: 5; /* Keeps the column above other cells */
+	background: lightblue;
+}
+
+.table__container__table__head,
+.table__container__table__row:nth-child(even){background-color: #f2f2f2}
+
+.league-table__container__item {
+	grid-column: span 2;
+	
+	display: flex;
+	flex-direction: column;
+	padding: 0 0.5em;
+	gap: 1em;
+	
+	align-content: center;
+	width: 280px;
+	
+	font-size: 1.25rem;
+}
+
+
+
+@media (width >= 650px) {
+	.league-table__container__item {
+		width: 600px;
+	}
+}
+
+.selected-team__container{
+	grid-column: span 2;
+	
+	display: flex;
+	flex-direction: column;
+}
+
+.selected-team__container__item {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.selected-team__container__item > h2 {
+	font-size: 1.5rem;
+}
+
+.selected-team__overview{
+	font-size: 1rem;
+}
+
+.border {
+	border: 1px solid black;
+}
+
+.selected-team__overview {
+	display: flex;
+	justify-content: space-around;
+	min-width: 250px;
+	gap: 1rem;
+	text-align: center;
+}
+
+
+
+.pitch__grid__container {
+	display: grid;
+	grid-template-rows: repeat(5, 75px);
+	width: 100%;
+	background: lightgreen;
+}
+
+.bench {
+	background: lightgray;
+}
+
+.pitch__position {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.player__card {
+	width: 50px;
+	height: 50px;
+	background: palegreen;
+	
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.player__name,
+.player__position,
+.player__points {
+	font-weight: bold;
+	font-size: 0.5rem;
+}
+
+.player__emoji {
+	font-size: 1.5rem;
+}
+
+@media (width >= 425px) {
+	.league-table__container__item {
+		width: 350px;
+	}
+}
+
+@media (width >= 600px) {
+	.league-table__container__item {
+		width: 550px;
+	}
+}
+
+@media (width >= 1024px) {
+	
+	.league-table__container__item,
+	.selected-team__container__item {
+		width: 800px;
+	}
+	
+	.pitch__grid__container {
+		grid-template-rows: repeat(5, 125px);
+	}
+	
+	.player__card {
+		width: 100px;
+		height: 100px;
+	}
+	
+	.player__name,
+	.player__position,
+	.player__points {
+		font-size: 1rem;
+	}
+
+	.player__emoji {
+		font-size: 2.5rem;
+	}
+}
+
+.header {
+	color: white;
+}
+
+.header__link {
+	all: unset;
+	cursor: pointer;
+	height:100%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	font-size: 1rem;
+}
+
+.footer {
+	color: white;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+}
