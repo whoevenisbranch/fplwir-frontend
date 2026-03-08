@@ -8,15 +8,9 @@ export default function Home() {
           <div className={styles.heading}>
             <h2>FPL Week In Review</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
-              nibh gravida, posuere diam vel, molestie augue. Sed auctor lectus
-              turpis. Morbi sed est ac augue placerat interdum sed vel nisl. Sed
-              euismod efficitur aliquam. Quisque felis turpis, euismod ac
-              commodo efficitur, commodo vel erat. Morbi at elementum enim. Cras
-              placerat mollis justo, eu iaculis elit mattis non. Orci varius
-              natoque penatibus et magnis dis parturient montes, nascetur
-              ridiculus mus. Vivamus eleifend risus nec sagittis consequat.
-              Praesent sagittis sem ut efficitur pellentesque.
+              Use your FPL League ID to generate a snapshot of your league at
+              the last gameweek. View your league standings, view everyones
+              picks and chips played.
             </p>
           </div>
           <div className={styles.form__container}>
@@ -28,10 +22,87 @@ export default function Home() {
                 id="league-id-search"
                 placeholder="ENTER FPL LEAGUE ID"
               />
-              <input type="button" value="GO" />
+              <input type="button" value="Generate Review" />
             </form>
           </div>
-          <div>How to get your FPL League ID</div>
+          <ul className={styles.help__container}>
+            <h3>How to get your FPL League Identifier</h3>
+            <li className={styles.help__container__step__item}>
+              <p className={styles.help__container__step__item__heading}>
+                Step 1 - Login To FPL
+              </p>
+              <div className={styles.help__container__step__item__content}>
+                <div className={styles.help__container__step__item__image}>
+                  placeholder
+                </div>
+                <p className={styles.help__container__step__item__text}>
+                  Go to{" "}
+                  <a href="https://fantasy.premierleague.com/">
+                    fantasy.premierleague.com
+                  </a>{" "}
+                  and log into your Offical FPL account.
+                </p>
+              </div>
+            </li>
+            <li className={styles.help__container__step__item}>
+              <p className={styles.help__container__step__item__heading}>
+                Step 2 - Go To Classic Leagues
+              </p>
+              <div className={styles.help__container__step__item__content}>
+                <div className={styles.help__container__step__item__image}>
+                  placeholder
+                </div>
+                <p className={styles.help__container__step__item__text}>
+                  Select the league your want to generate the review from your
+                  list of leagues. Note reviews can only be created for classic
+                  leagues and will only detail the top 50 players.
+                </p>
+              </div>
+            </li>
+            <li className={styles.help__container__step__item}>
+              <p className={styles.help__container__step__item__heading}>
+                Step 3 - Select your League
+              </p>
+              <div className={styles.help__container__step__item__content}>
+                <div className={styles.help__container__step__item__image}>
+                  placeholder
+                </div>
+                <p className={styles.help__container__step__item__text}>
+                  Copy the league ID contained in the page URL.
+                </p>
+              </div>
+            </li>
+            <li className={styles.help__container__step__item}>
+              <p className={styles.help__container__step__item__heading}>
+                Example
+              </p>
+              <div className={styles.help__container__step__item__content}>
+                <p className={styles.help__container__step__item__text}>
+                  <code>
+                    https://
+                    <wbr />
+                    fantasy.
+                    <wbr />
+                    premierleague.
+                    <wbr />
+                    com/
+                    <wbr />
+                    leagues/
+                    <wbr />
+                    <span
+                      className={styles.help__container__step__item__snippet}
+                    >
+                      314
+                    </span>
+                    <wbr />
+                    /standings
+                    <wbr />
+                    /c
+                  </code>
+                </p>
+              </div>
+            </li>
+          </ul>
         </section>
       </main>
     </>
