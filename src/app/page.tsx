@@ -1,4 +1,8 @@
 import styles from "./page.module.css";
+import Image from "next/image";
+import step1 from "@/assets/step1.jpg";
+import step2 from "@/assets/step2.jpg";
+import step3 from "@/assets/step3.jpg";
 
 export default function Home() {
   return (
@@ -33,7 +37,7 @@ export default function Home() {
               </p>
               <div className={styles.help__container__step__item__content}>
                 <div className={styles.help__container__step__item__image}>
-                  placeholder
+                  {/* <Image src={step1} alt="Step 2" />; */}
                 </div>
                 <p className={styles.help__container__step__item__text}>
                   Go to{" "}
@@ -50,7 +54,7 @@ export default function Home() {
               </p>
               <div className={styles.help__container__step__item__content}>
                 <div className={styles.help__container__step__item__image}>
-                  placeholder
+                  {/* <Image src={step2} alt="Step 2" />; */}
                 </div>
                 <p className={styles.help__container__step__item__text}>
                   Select the league your want to generate the review from your
@@ -65,7 +69,7 @@ export default function Home() {
               </p>
               <div className={styles.help__container__step__item__content}>
                 <div className={styles.help__container__step__item__image}>
-                  placeholder
+                  {/* <Image src={step3} alt="Step 2" />; */}
                 </div>
                 <p className={styles.help__container__step__item__text}>
                   Copy the league ID contained in the page URL.
