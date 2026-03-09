@@ -1,0 +1,15 @@
+.winner__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.winner__points {
+  font-size: 75px;
+}
+
+.winner__headline {
+  flex: flex-end;
+  text-align: center;
+}

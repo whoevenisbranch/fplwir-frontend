@@ -1,0 +1,41 @@
+.overview__podium__item {
+  width: 75px;
+}
+
+.overview__podium__name {
+  font-size: 15px;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.overview__podium__rank {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  text-shadow: 2px 2px 5px black;
+}
+
+.overview__podium__rank__pos {
+  font-weight: semibold;
+  font-size: 35px;
+}
+
+.overview__podium__rank__pts {
+  font-size: 15px;
+}
+
+.first {
+  min-height: 150px;
+  background: rgb(255, 215, 0);
+}
+
+.second {
+  min-height: 100px;
+  background: rgb(192, 192, 192);
+}
+
+.third {
+  min-height: 75px;
+  background: rgb(160, 82, 45);
+}

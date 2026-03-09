@@ -1,4 +1,5 @@
 import { Standings } from "./SnapshotContainer";
+import styles from "./leaguetable.module.css";
 
 interface ILeagueTableProps {
   standings: Standings[];
@@ -14,14 +15,16 @@ export default function LeagueTable({ standings }: ILeagueTableProps) {
   ];
 
   return (
-    <div className="league-table__container__item">
-      <div className="table__container">
-        <table className="table__container__table">
-          <thead className="table__container__table__head">
-            <tr className="table__container__table__row">
-              <th className="table__container__table__heading"></th>
+    <div className={styles.container__item}>
+      <div className={styles.table__container}>
+        <table>
+          <thead className={styles.table__container__table__head}>
+            <tr className={styles.table__container__table__row}>
+              <th className={styles.table__container__table__heading}>
+                Team Name
+              </th>
               {standings.map((team, i) => (
-                <th key={i} className="table__container__table__heading">
+                <th key={i} className={styles.table__container__table__heading}>
                   {team.teamName}
                 </th>
               ))}
@@ -30,21 +33,23 @@ export default function LeagueTable({ standings }: ILeagueTableProps) {
 
           <tbody>
             {rows.map((row) => (
-              <tr key={row.key} className="table__container__table__row">
-                <td className="table__container__table__data">{row.label}</td>
+              <tr key={row.key} className={styles.table__container__table__row}>
+                <td className={styles.table__container__table__data}>
+                  {row.label}
+                </td>
 
                 {standings.map((team, i) => (
-                  <td key={i} className="table__container__table__data">
+                  <td key={i} className={styles.table__container__table__data}>
                     {team[row.key as keyof Standings]}
                   </td>
                 ))}
               </tr>
             ))}
 
-            <tr className="table__container__table__row">
-              <td className="table__container__table__data">Selected</td>
+            <tr className={styles.table__container__table__row}>
+              <td className={styles.table__container__table__data}>Selected</td>
               {standings.map((_, i) => (
-                <td key={i} className="table__container__table__data">
+                <td key={i} className={styles.table__container__table__data}>
                   <input type="checkbox" />
                 </td>
               ))}

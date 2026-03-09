@@ -1,3 +1,5 @@
+import styles from "./playercard.module.css";
+
 interface IPlayerCardProps {
   /** The player position */
   position: string;
@@ -26,7 +28,7 @@ export default function PlayerCard({
   name,
   points,
 }: IPlayerCardProps) {
-  var emojiName: EmojiName;
+  let emojiName: EmojiName;
   if (points < 0) {
     emojiName = "negative";
   } else if (points == 0) {
@@ -48,11 +50,11 @@ export default function PlayerCard({
   }
 
   return (
-    <div className="player__card">
-      <p className="player__position">{position}</p>
-      <p className="player__emoji">{emojiMap[emojiName]}</p>
-      <p className="player__name">{name}</p>
-      <p className="player__points">{points}</p>
+    <div className={styles.player__card}>
+      <p className={styles.player__position}>{position}</p>
+      <p className={styles.player__emoji}>{emojiMap[emojiName]}</p>
+      <p className={styles.player__name}>{name}</p>
+      <p className={styles.player__points}>{points}</p>
     </div>
   );
 }

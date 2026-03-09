@@ -1,0 +1,12 @@
+.podium {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-around;
+  align-items: center;
+}
+
+.podium__container {
+  display: flex;
+  align-items: flex-end;
+}

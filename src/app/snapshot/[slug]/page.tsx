@@ -1,5 +1,7 @@
+import Divider from "@/components/Divider";
 import SnapshotContainer from "@/components/snapshot/SnapshotContainer";
 import SnapshotTitle from "@/components/snapshot/SnapshotTitle";
+import styles from "./page.module.css";
 
 export default async function SnapshotPage({
   params,
@@ -12,9 +14,10 @@ export default async function SnapshotPage({
 
   return (
     <>
-      <main className="main">
+      <main className={styles.main}>
         {/* <!-- LEAGUE NAME SECTION--> */}
         <SnapshotTitle leagueName={"Pain In Dias"} id={parseInt(slug)} />
+        <Divider />
         <SnapshotContainer />
       </main>
     </>

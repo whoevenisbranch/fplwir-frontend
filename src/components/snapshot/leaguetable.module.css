@@ -1,0 +1,80 @@
+/* .league-table__container__item */
+.container__item {
+  grid-column: span 2;
+
+  display: flex;
+  flex-direction: column;
+  padding: 0 0.5em;
+  gap: 1em;
+
+  align-content: center;
+  width: 280px;
+
+  font-size: 1.25rem;
+}
+
+@media (width >= 425px) {
+  .container__item {
+    width: 350px;
+  }
+}
+
+@media (width >= 600px) {
+  .container__item {
+    width: 550px;
+  }
+}
+
+@media (width >= 1024px) {
+  .container__item {
+    width: 800px;
+  }
+}
+
+.table__container {
+  overflow-x: auto;
+  background: rgb(231, 254, 255);
+}
+
+.table__container__table__heading,
+.table__container__table__data {
+  text-align: center;
+  padding: 8px 0px;
+  min-width: 100px;
+}
+
+.table__container__table__heading:first-child,
+.table__container__table__data:first-child {
+  font-weight: bold;
+  text-align: left;
+  padding: 0px 5px;
+  position: sticky;
+  left: 0;
+  /* Ensures the column stays on the left */
+  z-index: 5;
+  /* Keeps the column above other cells */
+  background: lightblue;
+}
+
+.table__container__table__head,
+.table__container__table__row:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table__container__table {
+}
+
+.table__container__table__head {
+}
+
+.table__container__table__row {
+}
+
+.table__container__table__heading {
+}
+
+.table__container__table__row {
+}
+
+.table__container__table__data {
+}

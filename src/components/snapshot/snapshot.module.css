@@ -1,0 +1,31 @@
+.league__name__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  margin: 20px 0px;
+}
+
+.league__name__container > h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.overview__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  background: rgb(248, 248, 255);
+  height: 250px;
+  width: 275px;
+
+  border-radius: 35px;
+  box-shadow: 0px 5px 10px rgb(128, 128, 128);
+}
+
+.overview__item__heading {
+  font-size: 20px;
+}

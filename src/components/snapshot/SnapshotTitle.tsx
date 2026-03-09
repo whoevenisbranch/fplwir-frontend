@@ -1,3 +1,5 @@
+import styles from "./snapshot.module.css";
+
 interface ILeagueMetaData {
   leagueName: string;
   id: number;
@@ -5,7 +7,7 @@ interface ILeagueMetaData {
 
 export default function SnapshotTitle({ leagueName, id }: ILeagueMetaData) {
   return (
-    <section className="league-name__container">
+    <section className={styles.league__name__container}>
       <h2>
         {leagueName} (ID: {id})
       </h2>

@@ -1,3 +1,5 @@
+import styles from "./teamstats.module.css";
+
 interface ITeamStatsProps {
   /** The league rank */
   leagueRank: number;
@@ -13,7 +15,7 @@ export default function TeamStats({
   weeklyPoints,
 }: ITeamStatsProps) {
   return (
-    <div className="selected-team__overview">
+    <div className={styles.selected__team__overview}>
       <p>League Rank: {leagueRank}</p>
       <p>Overall: {overallRank}</p>
       <p>Weekly Pts: {weeklyPoints}</p>

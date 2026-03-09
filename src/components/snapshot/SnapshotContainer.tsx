@@ -1,8 +1,10 @@
+import Divider from "../Divider";
 import AverageScore from "./AverageScore";
 import GameweekWinner from "./GameweekWinner";
 import LeagueTable from "./LeagueTable";
 import Podium from "./Podium";
 import SelectedTeamDisplay from "./SelectedTeamDisplay";
+import styles from "./snapshotcontainer.module.css";
 
 export type ManagerMetadata = {
   name: string;
@@ -25,19 +27,19 @@ type GameweekWinner = {
 };
 
 export default function SnapshotContainer() {
-  var managers: ManagerMetadata[] = [
+  const managers: ManagerMetadata[] = [
     { name: "Le Saux Solid Crew", points: 1300, rank: "first" },
     { name: "jbl", points: 1200, rank: "second" },
     { name: "Mbuemo No.5", points: 1100, rank: "third" },
   ];
 
-  var gameweekWinner: GameweekWinner = {
+  const gameweekWinner: GameweekWinner = {
     teamName: "Le Saux Solid Crew",
     description:
       "Le Saux Solid Crew used no chips to get 67 points. Captain Fernandes scored 20 points.",
   };
 
-  var standings: Standings[] = [
+  const standings: Standings[] = [
     {
       teamName: "Le Saux Solid Crew",
       leagueRank: 1,
@@ -77,9 +79,9 @@ export default function SnapshotContainer() {
   );
 
   return (
-    <div className="main__container">
-      <section className="overview__section">
-        <div className="overview__container">
+    <>
+      <section className={styles.overview__section}>
+        <div className={styles.overview__container}>
           <Podium managers={managers} />
           <GameweekWinner
             teamName={gameweekWinner.teamName}
@@ -88,11 +90,12 @@ export default function SnapshotContainer() {
           <AverageScore avg={58} />
         </div>
       </section>
-
-      <section className="league-table__section">
+      <Divider />
+      <section className={styles.league__table__section}>
         <LeagueTable standings={sortedStandings} />
+        <Divider />
         <SelectedTeamDisplay />
       </section>
-    </div>
+    </>
   );
 }

@@ -1,0 +1,26 @@
+.selected__team__container__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.selected__team__container__item > h2 {
+  font-size: 1.5rem;
+}
+
+.pitch__grid__container {
+  display: grid;
+  grid-template-rows: repeat(5, 75px);
+  width: 100%;
+  background: lightgreen;
+}
+
+@media (width >=1024px) {
+  .selected__team__container__item {
+    width: 800px;
+  }
+
+  .pitch__grid__container {
+    grid-template-rows: repeat(5, 125px);
+  }
+}

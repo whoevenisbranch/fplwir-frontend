@@ -1,5 +1,6 @@
 import PlayerCard from "./PlayerCard";
 import { Player } from "./SelectedTeamDisplay";
+import styles from "./pitchrows.module.css";
 
 type Props = {
   players: Player[];
@@ -8,7 +9,9 @@ type Props = {
 
 export default function PitchRow({ players, isBench }: Props) {
   return (
-    <div className={`pitch__position ${isBench ? "bench" : ""}`}>
+    <div
+      className={`${styles.pitch__position} ${isBench ? `${styles.bench}` : ``}`}
+    >
       {players.map((player) => (
         <PlayerCard
           key={player.name}
