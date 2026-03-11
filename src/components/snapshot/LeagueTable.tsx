@@ -1,8 +1,8 @@
-import { Standings } from "./SnapshotContainer";
+import { Standing } from "@/types/snapshot";
 import styles from "./leaguetable.module.css";
 
 interface ILeagueTableProps {
-  standings: Standings[];
+  standings: Standing[];
 }
 
 export default function LeagueTable({ standings }: ILeagueTableProps) {
@@ -12,6 +12,7 @@ export default function LeagueTable({ standings }: ILeagueTableProps) {
     { label: "Overall Rank", key: "overallRank" },
     { label: "Chip Play", key: "chipPlay" },
     { label: "Captain", key: "captain" },
+    { label: "Vice-Captain", key: "viceCaptain" },
   ];
 
   return (
@@ -40,7 +41,7 @@ export default function LeagueTable({ standings }: ILeagueTableProps) {
 
                 {standings.map((team, i) => (
                   <td key={i} className={styles.table__container__table__data}>
-                    {team[row.key as keyof Standings]}
+                    {team[row.key as keyof Standing]}
                   </td>
                 ))}
               </tr>

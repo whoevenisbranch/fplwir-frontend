@@ -7,8 +7,6 @@ export default function AverageScore({ avg }: { avg: number }) {
       <h3 className={global.overview__item__heading}>LEAGUE AVG SCORE</h3>
       <p className={styles.avgscore__points}>{avg}</p>
       <p>points</p>
-      <br></br>
-      <p>(Based on Top 50)</p>
     </div>
   );
 }

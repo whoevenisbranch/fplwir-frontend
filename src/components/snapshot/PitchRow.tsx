@@ -1,5 +1,5 @@
+import { Player } from "@/types/snapshot";
 import PlayerCard from "./PlayerCard";
-import { Player } from "./SelectedTeamDisplay";
 import styles from "./pitchrows.module.css";
 
 type Props = {

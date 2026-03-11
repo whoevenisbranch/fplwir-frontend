@@ -3,11 +3,13 @@ import styles from "./gameweekwinner.module.css";
 
 interface IGameweekWinnerProps {
   teamName: string;
+  points: number;
   description: string;
 }
 
 export default function GameweekWinner({
   teamName,
+  points,
   description,
 }: IGameweekWinnerProps) {
   return (
@@ -15,12 +17,10 @@ export default function GameweekWinner({
       <h3 className={global.overview__item__heading}>GAMEWEEK WINNER</h3>
       <div className={styles.winner__container}>
         <p>{teamName}</p>
-        <p className={styles.winner__points}>67</p>
+        <p className={styles.winner__points}>{points}</p>
         <p>points</p>
         <br></br>
         <p className={styles.winner__headline}>{description}</p>
-        <br></br>
-        <p>(Based on Top 50)</p>
       </div>
     </div>
   );

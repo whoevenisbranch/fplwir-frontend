@@ -1,3 +1,4 @@
+import { ManagerDetail } from "@/types/api";
 import Divider from "../Divider";
 import AverageScore from "./AverageScore";
 import GameweekWinner from "./GameweekWinner";
@@ -5,96 +6,63 @@ import LeagueTable from "./LeagueTable";
 import Podium from "./Podium";
 import SelectedTeamDisplay from "./SelectedTeamDisplay";
 import styles from "./snapshotcontainer.module.css";
+import {
+  calculateDefaultScore,
+  findTopManager,
+  generateTopManagerDescription,
+} from "@/helpers/snapshot";
+import { ManagerMetadata, Standing } from "@/types/snapshot";
 
-export type ManagerMetadata = {
-  name: string;
-  points: number;
-  rank: string;
+interface IProps {
+  managerDetails: ManagerDetail[];
+}
+
+type Podium = {
+  first: ManagerMetadata;
+  second: ManagerMetadata;
+  third: ManagerMetadata;
 };
 
-export type Standings = {
-  teamName: string;
-  leagueRank: number;
-  points: number;
-  overallRank: number;
-  chipPlay: string;
-  captain: string;
-};
+export default function SnapshotContainer({ managerDetails }: IProps) {
+  //TODO: Some state needed here to set the selected team from the form to the selected team view
 
-type GameweekWinner = {
-  teamName: string;
-  description: string;
-};
+  const first: ManagerDetail = managerDetails[0];
+  const second: ManagerDetail = managerDetails[1];
+  const third: ManagerDetail = managerDetails[2];
 
-export default function SnapshotContainer() {
-  const managers: ManagerMetadata[] = [
-    { name: "Le Saux Solid Crew", points: 1300, rank: "first" },
-    { name: "jbl", points: 1200, rank: "second" },
-    { name: "Mbuemo No.5", points: 1100, rank: "third" },
-  ];
+  const avg = calculateDefaultScore(managerDetails);
+  const topPlayer = findTopManager(managerDetails);
 
-  const gameweekWinner: GameweekWinner = {
-    teamName: "Le Saux Solid Crew",
-    description:
-      "Le Saux Solid Crew used no chips to get 67 points. Captain Fernandes scored 20 points.",
+  const gameweekWinner = {
+    teamName: topPlayer.teamName,
+    points: topPlayer.eventPoints,
+    description: generateTopManagerDescription(topPlayer),
   };
 
-  const standings: Standings[] = [
-    {
-      teamName: "Le Saux Solid Crew",
-      leagueRank: 1,
-      points: 67,
-      overallRank: 1,
-      chipPlay: "NA",
-      captain: "Fernandes",
-    },
-    {
-      teamName: "jbl",
-      leagueRank: 2,
-      points: 50,
-      overallRank: 2,
-      chipPlay: "NA",
-      captain: "Haaland",
-    },
-    {
-      teamName: "Mbuemo No.5",
-      leagueRank: 3,
-      points: 51,
-      overallRank: 3,
-      chipPlay: "NA",
-      captain: "Semenyo",
-    },
-    {
-      teamName: "JB",
-      leagueRank: 4,
-      points: 12,
-      overallRank: 4,
-      chipPlay: "NA",
-      captain: "Palmer",
-    },
-  ];
-
-  const sortedStandings = [...standings].sort(
-    (a, b) => a.leagueRank - b.leagueRank,
-  );
+  const standings: Standing[] = managerDetails.map((manager) => ({
+    teamName: manager.teamName,
+    leagueRank: manager.snapshotRank,
+    points: manager.eventPoints,
+    overallRank: manager.overallRank,
+    chipPlay: manager.chipPlayed,
+    captain: manager.captain,
+    viceCaptain: manager.viceCaptain,
+  }));
 
   return (
     <>
       <section className={styles.overview__section}>
         <div className={styles.overview__container}>
-          <Podium managers={managers} />
-          <GameweekWinner
-            teamName={gameweekWinner.teamName}
-            description={gameweekWinner.description}
-          />
-          <AverageScore avg={58} />
+          <Podium first={first} second={second} third={third} />
+          <GameweekWinner {...gameweekWinner} />
+          <AverageScore avg={avg} />
         </div>
       </section>
       <Divider />
       <section className={styles.league__table__section}>
-        <LeagueTable standings={sortedStandings} />
+        <LeagueTable standings={standings} />
         <Divider />
-        <SelectedTeamDisplay />
+        <SelectedTeamDisplay selectedTeam={managerDetails[0]} />
       </section>
     </>
   );

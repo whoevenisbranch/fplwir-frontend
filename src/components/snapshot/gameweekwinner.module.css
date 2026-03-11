@@ -10,6 +10,6 @@
 }
 
 .winner__headline {
-  flex: flex-end;
+  width: 80%;
   text-align: center;
 }

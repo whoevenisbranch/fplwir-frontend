@@ -1,52 +1,41 @@
+import { ManagerDetail } from "@/types/api";
 import PitchRow from "./PitchRow";
 import TeamStats from "./TeamStats";
 
 import styles from "./selectedteamdisplay.module.css";
+import { Player } from "@/types/snapshot";
 
-export type Player = {
-  /** The player position */
-  position: string;
-  /** The player name to display */
-  name: string;
-  /** The points to display */
-  points: number;
-};
+interface Props {
+  selectedTeam: ManagerDetail;
+}
 
-export default function SelectedTeamDisplay() {
-  const goalkeepers: Player[] = [
-    { position: "GKP", name: "Dubravka", points: 2 },
-  ];
+export default function SelectedTeamDisplay({ selectedTeam }: Props) {
+  const goalkeepers: Player[] = selectedTeam.picks.filter(
+    (pick) => pick.position === "GKP" && !pick.isBenched,
+  );
 
-  const defenders: Player[] = [
-    { position: "DEF", name: "Virgil", points: 1 },
-    { position: "DEF", name: "Chalobah", points: 2 },
-    { position: "DEF", name: "Guehi", points: 1 },
-  ];
+  const defenders: Player[] = selectedTeam.picks.filter(
+    (pick) => pick.position === "DEF" && !pick.isBenched,
+  );
 
-  const midfielders: Player[] = [
-    { position: "MID", name: "B.Fernandes", points: 8 },
-    { position: "MID", name: "Semenyo", points: 7 },
-    { position: "MID", name: "Rogers", points: 1 },
-    { position: "MID", name: "Rice", points: 3 },
-    { position: "MID", name: "Anderson", points: 12 },
-  ];
+  const midfielders: Player[] = selectedTeam.picks.filter(
+    (pick) => pick.position === "MID" && !pick.isBenched,
+  );
 
-  const forwards: Player[] = [
-    { position: "FWD", name: "Haaland", points: 4 },
-    { position: "FWD", name: "Bowen", points: 4 },
-  ];
+  const forwards: Player[] = selectedTeam.picks.filter(
+    (pick) => pick.position === "FWD" && !pick.isBenched,
+  );
 
-  const bench: Player[] = [
-    { position: "GKP", name: "Roefs", points: 0 },
-    { position: "DEF", name: "Saliba", points: 0 },
-    { position: "FWD", name: "Kroupi.Jr", points: 1 },
-    { position: "DEF", name: "Esteve", points: 1 },
-  ];
+  const bench: Player[] = selectedTeam.picks.filter((pick) => pick.isBenched);
 
   return (
     <div className={styles.selected__team__container__item}>
-      <h2>Mbuemo No.5</h2>
-      <TeamStats leagueRank={12} overallRank={123456789} weeklyPoints={151} />
+      <h2>{selectedTeam.teamName}</h2>
+      <TeamStats
+        leagueRank={selectedTeam.snapshotRank}
+        overallRank={selectedTeam.overallPoints}
+        weeklyPoints={selectedTeam.eventPoints}
+      />
       <div className={styles.pitch__grid__container}>
         <PitchRow players={goalkeepers} isBench={false} />
         <PitchRow players={defenders} isBench={false} />

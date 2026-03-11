@@ -1,4 +1,4 @@
-import { ManagerMetadata } from "./SnapshotContainer";
+import { ManagerMetadata } from "@/types/snapshot";
 import styles from "./podiumitem.module.css";
 
 export default function PodiumItem({ name, points, rank }: ManagerMetadata) {

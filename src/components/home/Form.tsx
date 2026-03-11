@@ -11,7 +11,7 @@ export default function Form() {
           id="league-id-search"
           placeholder="ENTER FPL LEAGUE ID"
         />
-        <input className={styles.button} type="button" value="GENERATE SNAPSHOT" />
+        <input className={styles.button} type="button" value="GENERATE" />
       </form>
     </div>
   );
