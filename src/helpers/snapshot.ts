@@ -17,24 +17,24 @@ export function findTopManager(managerDetails: ManagerDetail[]): ManagerDetail {
 export function generateTopManagerDescription(manager: ManagerDetail): string {
   let chipText = "";
   switch (manager.chipPlayed) {
-    case "bb":
+    case "bboost":
       chipText = "bench-boost";
       break;
-    case "wc":
+    case "wildcard":
       chipText = "wildcard";
       break;
-    case "tc":
+    case "3xc":
       chipText = "triple captain";
       break;
-    case "fh":
+    case "freehit":
       chipText = "free-hit";
       break;
     default:
-      "no chips";
+      chipText = "no chips";
       break;
   }
 
-  let message: string = `${manager.teamName} used ${chipText} to score ${manager.eventPoints} points.`;
+  const message: string = `${manager.teamName} used ${chipText} to score ${manager.eventPoints} points.`;
   return message;
 }
 

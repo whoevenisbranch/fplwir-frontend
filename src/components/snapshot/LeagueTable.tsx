@@ -1,31 +1,40 @@
 import { Standing } from "@/types/snapshot";
 import styles from "./leaguetable.module.css";
+import { ChangeEvent } from "react";
 
 interface ILeagueTableProps {
   standings: Standing[];
+  selectedId: number;
+  teamSelectionChanged: (event: ChangeEvent<HTMLInputElement>) => void;
 }
 
-export default function LeagueTable({ standings }: ILeagueTableProps) {
+export default function LeagueTable({
+  standings,
+  selectedId,
+  teamSelectionChanged,
+}: ILeagueTableProps) {
   const rows = [
     { label: "League Rank", key: "leagueRank" },
     { label: "Points", key: "points" },
-    { label: "Overall Rank", key: "overallRank" },
+    { label: "Points on Bench", key: "benchedPoints" },
     { label: "Chip Play", key: "chipPlay" },
     { label: "Captain", key: "captain" },
-    { label: "Vice-Captain", key: "viceCaptain" },
   ];
 
   return (
     <div className={styles.container__item}>
       <div className={styles.table__container}>
-        <table>
+        <table className={styles.table}>
           <thead className={styles.table__container__table__head}>
             <tr className={styles.table__container__table__row}>
               <th className={styles.table__container__table__heading}>
                 Team Name
               </th>
-              {standings.map((team, i) => (
-                <th key={i} className={styles.table__container__table__heading}>
+              {standings.map((team) => (
+                <th
+                  key={team.managerId}
+                  className={styles.table__container__table__heading}
+                >
                   {team.teamName}
                 </th>
               ))}
@@ -39,8 +48,11 @@ export default function LeagueTable({ standings }: ILeagueTableProps) {
                   {row.label}
                 </td>
 
-                {standings.map((team, i) => (
-                  <td key={i} className={styles.table__container__table__data}>
+                {standings.map((team) => (
+                  <td
+                    key={team.managerId}
+                    className={styles.table__container__table__data}
+                  >
                     {team[row.key as keyof Standing]}
                   </td>
                 ))}
@@ -49,9 +61,18 @@ export default function LeagueTable({ standings }: ILeagueTableProps) {
 
             <tr className={styles.table__container__table__row}>
               <td className={styles.table__container__table__data}>Selected</td>
-              {standings.map((_, i) => (
-                <td key={i} className={styles.table__container__table__data}>
-                  <input type="checkbox" />
+              {standings.map((team) => (
+                <td
+                  key={team.managerId}
+                  className={styles.table__container__table__data}
+                >
+                  <input
+                    type="radio"
+                    name="selectedId"
+                    value={team.managerId}
+                    checked={selectedId === team.managerId}
+                    onChange={teamSelectionChanged}
+                  />
                 </td>
               ))}
             </tr>

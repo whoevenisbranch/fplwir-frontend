@@ -18,6 +18,7 @@ export default function PitchRow({ players, isBench }: Props) {
           position={player.position}
           name={player.name}
           points={player.points}
+          isCaptain={player.isCaptain}
         />
       ))}
     </div>

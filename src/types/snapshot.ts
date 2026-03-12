@@ -1,11 +1,11 @@
 export type Standing = {
+  managerId: number;
   teamName: string;
   leagueRank: number;
   points: number;
-  overallRank: number;
+  benchedPoints: number;
   chipPlay: string;
   captain: string;
-  viceCaptain: string;
 };
 
 export type Player = {

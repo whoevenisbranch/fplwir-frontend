@@ -1,3 +1,5 @@
+"use client";
+
 import { ManagerDetail } from "@/types/api";
 import Divider from "../Divider";
 import AverageScore from "./AverageScore";
@@ -12,6 +14,7 @@ import {
   generateTopManagerDescription,
 } from "@/helpers/snapshot";
 import { ManagerMetadata, Standing } from "@/types/snapshot";
+import { ChangeEvent, useState } from "react";
 
 interface IProps {
   managerDetails: ManagerDetail[];
@@ -24,7 +27,25 @@ type Podium = {
 };
 
 export default function SnapshotContainer({ managerDetails }: IProps) {
-  //TODO: Some state needed here to set the selected team from the form to the selected team view
+  const [selectedTeam, setSelectedTeam] = useState<ManagerDetail>(
+    managerDetails[0],
+  );
+
+  // State to store the selected value
+  const [selectedId, setSelectedId] = useState<number>(managerDetails[0].managerId);
+
+  // Handle change event with type safety
+  const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
+    const value = parseInt(event.target.value);
+    setSelectedId(value);
+
+    const selectedManager = managerDetails.find(
+      (manager) => manager.managerId === value,
+    );
+    if (selectedManager !== undefined) {
+      setSelectedTeam(selectedManager);
+    }
+  };
 
   const first: ManagerDetail = managerDetails[0];
   const second: ManagerDetail = managerDetails[1];
@@ -40,13 +61,13 @@ export default function SnapshotContainer({ managerDetails }: IProps) {
   };
 
   const standings: Standing[] = managerDetails.map((manager) => ({
+    managerId: manager.managerId,
     teamName: manager.teamName,
     leagueRank: manager.snapshotRank,
     points: manager.eventPoints,
-    overallRank: manager.overallRank,
+    benchedPoints: manager.benchedPoints,
     chipPlay: manager.chipPlayed,
     captain: manager.captain,
-    viceCaptain: manager.viceCaptain,
   }));
 
   return (
@@ -60,9 +81,13 @@ export default function SnapshotContainer({ managerDetails }: IProps) {
       </section>
       <Divider />
       <section className={styles.league__table__section}>
-        <LeagueTable standings={standings} />
+        <LeagueTable
+          standings={standings}
+          selectedId={selectedId}
+          teamSelectionChanged={handleChange}
+        />
         <Divider />
-        <SelectedTeamDisplay selectedTeam={managerDetails[0]} />
+        <SelectedTeamDisplay selectedTeam={selectedTeam} />
       </section>
     </>
   );

@@ -19,6 +19,10 @@
   font-size: 1.5rem;
 }
 
+.captain {
+  border: 3px solid black;
+}
+
 @media (width >=1024px) {
   .player__card {
     width: 100px;

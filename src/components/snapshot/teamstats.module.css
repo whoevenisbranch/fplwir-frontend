@@ -1,6 +1,6 @@
 .selected__team__overview {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   min-width: 250px;
   gap: 1rem;
   text-align: center;

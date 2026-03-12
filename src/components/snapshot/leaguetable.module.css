@@ -13,6 +13,10 @@
   font-size: 1.25rem;
 }
 
+.table > * > tr > * {
+  border-right: 1px solid blue;
+}
+
 @media (width >= 425px) {
   .container__item {
     width: 350px;
@@ -40,7 +44,7 @@
 .table__container__table__data {
   text-align: center;
   padding: 8px 0px;
-  min-width: 100px;
+  min-width: 120px;
 }
 
 .table__container__table__heading:first-child,
@@ -50,31 +54,11 @@
   padding: 0px 5px;
   position: sticky;
   left: 0;
-  /* Ensures the column stays on the left */
   z-index: 5;
-  /* Keeps the column above other cells */
   background: lightblue;
 }
 
 .table__container__table__head,
 .table__container__table__row:nth-child(even) {
   background-color: #f2f2f2;
-}
-
-.table__container__table {
-}
-
-.table__container__table__head {
-}
-
-.table__container__table__row {
-}
-
-.table__container__table__heading {
-}
-
-.table__container__table__row {
-}
-
-.table__container__table__data {
 }

@@ -11,6 +11,10 @@
   text-align: center;
 }
 
+.league__name__container > p {
+  font-size: 20px;
+}
+
 .overview__item {
   display: flex;
   flex-direction: column;

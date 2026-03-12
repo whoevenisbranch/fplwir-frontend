@@ -33,7 +33,6 @@ export default function SelectedTeamDisplay({ selectedTeam }: Props) {
       <h2>{selectedTeam.teamName}</h2>
       <TeamStats
         leagueRank={selectedTeam.snapshotRank}
-        overallRank={selectedTeam.overallPoints}
         weeklyPoints={selectedTeam.eventPoints}
       />
       <div className={styles.pitch__grid__container}>

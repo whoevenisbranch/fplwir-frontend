@@ -3,8 +3,17 @@ import SnapshotContainer from "@/components/snapshot/SnapshotContainer";
 import SnapshotTitle from "@/components/snapshot/SnapshotTitle";
 import styles from "./page.module.css";
 
-import { promises as fs } from "fs";
 import { ManagerDetail, Root } from "@/types/api";
+import { notFound } from "next/navigation";
+import axios from "axios";
+import { Suspense } from "react";
+
+async function fetchSnapshot(leagueId: number): Promise<Root> {
+  const response = await axios.get(
+    `http:localhost:3000/api/snapshot/${leagueId}`,
+  );
+  return response.data;
+}
 
 export default async function SnapshotPage({
   params,
@@ -13,31 +22,32 @@ export default async function SnapshotPage({
 }) {
   const { slug } = await params;
 
-  //TODO: fetch from API
+  const regex = /^(?:[1-9]\d*)$/;
+  if (!regex.test(slug)) {
+    notFound();
+  } else {
 
-  const file = await fs.readFile(
-    process.cwd() + "/src/data/snapshot.json",
-    "utf8",
-  );
-  const { data }: Root = JSON.parse(file);
+    const { data }: Root = await fetchSnapshot(parseInt(slug));
 
-  const details: ManagerDetail[] = data.details;
-  const sortedStandings = [...details].sort(
-    (a, b) => a.snapshotRank - b.snapshotRank,
-  );
+    const details: ManagerDetail[] = data.details;
+    const sortedStandings = [...details].sort(
+      (a, b) => a.snapshotRank - b.snapshotRank,
+    );
 
-  return (
-    <>
-      <main className={styles.main}>
-        {/* <!-- LEAGUE NAME SECTION--> */}
-        <SnapshotTitle
-          gameweek={data.gw}
-          leagueName={data.name}
-          id={parseInt(slug)}
-        />
-        <Divider />
-        <SnapshotContainer managerDetails={sortedStandings} />
-      </main>
-    </>
-  );
+    return (
+      <>
+        <main className={styles.main}>
+          <Suspense fallback={<div>Loading...</div>}>
+            <SnapshotTitle
+              gameweek={data.gw}
+              leagueName={data.leagueName}
+              id={data.leagueId}
+            />
+            <Divider />
+            <SnapshotContainer managerDetails={sortedStandings} />
+          </Suspense>
+        </main>
+      </>
+    );
+  }
 }
