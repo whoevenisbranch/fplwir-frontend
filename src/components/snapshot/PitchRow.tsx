@@ -5,12 +5,13 @@ import styles from "./pitchrows.module.css";
 type Props = {
   players: Player[];
   isBench: boolean;
+  chipPlayed: string;
 };
 
-export default function PitchRow({ players, isBench }: Props) {
+export default function PitchRow({ players, isBench, chipPlayed }: Props) {
   return (
     <div
-      className={`${styles.pitch__position} ${isBench ? `${styles.bench}` : ``}`}
+      className={`${styles.pitch__position} ${isBench ? `${styles.bench}` : ``} ${isBench && chipPlayed === "bboost" ? `${styles.bboost}` : ``}`}
     >
       {players.map((player) => (
         <PlayerCard
@@ -19,6 +20,7 @@ export default function PitchRow({ players, isBench }: Props) {
           name={player.name}
           points={player.points}
           isCaptain={player.isCaptain}
+          chipPlayed={chipPlayed}
         />
       ))}
     </div>

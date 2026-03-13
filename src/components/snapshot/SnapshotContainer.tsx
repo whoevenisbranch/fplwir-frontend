@@ -32,7 +32,9 @@ export default function SnapshotContainer({ managerDetails }: IProps) {
   );
 
   // State to store the selected value
-  const [selectedId, setSelectedId] = useState<number>(managerDetails[0].managerId);
+  const [selectedId, setSelectedId] = useState<number>(
+    managerDetails[0].managerId,
+  );
 
   // Handle change event with type safety
   const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
@@ -63,7 +65,7 @@ export default function SnapshotContainer({ managerDetails }: IProps) {
   const standings: Standing[] = managerDetails.map((manager) => ({
     managerId: manager.managerId,
     teamName: manager.teamName,
-    leagueRank: manager.snapshotRank,
+    leagueRank: manager.rank,
     points: manager.eventPoints,
     benchedPoints: manager.benchedPoints,
     chipPlay: manager.chipPlayed,

@@ -1,3 +1,7 @@
+export interface Payload {
+  payload: Root;
+}
+
 export interface Root {
   data: Data;
 }
@@ -12,7 +16,7 @@ export interface Data {
 export interface ManagerDetail {
   managerId: number;
   teamName: string;
-  snapshotRank: number;
+  rank: number;
   eventPoints: number;
   benchedPoints: number;
   overallPoints: number;

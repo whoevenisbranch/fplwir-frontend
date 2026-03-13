@@ -7,8 +7,7 @@
       {
         "managerId": 515399,
         "teamName": "Le Saux Solid Crew",
-        "snapshotRank": 1,
-        "overallRank": 0,
+        "rank": 1,
         "eventPoints": 45,
         "benchedPoints": 9,
         "overallPoints": 1658,
@@ -155,8 +154,7 @@
       {
         "managerId": 3655280,
         "teamName": "jbl",
-        "snapshotRank": 2,
-        "overallRank": 0,
+        "rank": 2,
         "eventPoints": 77,
         "benchedPoints": 2,
         "overallPoints": 1657,
@@ -303,8 +301,7 @@
       {
         "managerId": 864745,
         "teamName": "Mbuemo No.5",
-        "snapshotRank": 3,
-        "overallRank": 0,
+        "rank": 3,
         "eventPoints": 45,
         "benchedPoints": 2,
         "overallPoints": 1566,
@@ -451,8 +448,7 @@
       {
         "managerId": 4168631,
         "teamName": "JB",
-        "snapshotRank": 4,
-        "overallRank": 0,
+        "rank": 4,
         "eventPoints": 32,
         "benchedPoints": 0,
         "overallPoints": 792,
